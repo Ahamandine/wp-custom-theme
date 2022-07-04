@@ -1,0 +1,95 @@
+/*
+Theme Name: WP Custom Theme
+Theme URI: https://github.com/Ahamandine/
+Description: WP Custom Theme
+Author: Ahamandine
+Author URI: https://github.com/Ahamandine/
+Requires at least: 6.0
+Requires PHP: 8.1.5
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+la version de wp : wp core version
+la version de PHP: php -v
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+/*Tailwind installé */
+
+
+body {
+    background-color:darkslategrey;
+    /* color: white; */
+
+}
+
+h2 {
+    font-family: Cinzel;
+    font-weight: bolder;
+    height: 2rem;
+    padding-bottom: 3em;
+    font-size:x-large;
+}
+
+article {
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    background-color:mistyrose;
+}
+
+header,
+nav,
+footer {
+    color:ghostwhite;
+}
+
+nav,
+footer {
+    font-family: Cinzel;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+img {
+    width: fit-content(100%);
+}
+
+nav {
+    justify-content: space-evenly;
+    background-color: darkslategray;
+}
+
+h1 {
+    text-align: center;
+    height: 10em;
+    font-size:xx-large;
+    background-image: url('img/mononcle_feature.jpg')
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.post-excerpt {
+    padding: 1em;
+}
+
+/* CSS règler la taille avec fit-content ou autre
+Un petit hoover
+et des règlages sur les marges entre différentes données */
